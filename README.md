@@ -1,12 +1,31 @@
-# React + Vite
+# Capsule
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Capsule** is a personal media tracker built for people who enjoy more than just one kind of entertainment. Whether it’s movies, TV shows, books, or music Capsule lets you log, organize, and review the media you experience, all in one place.
 
-Currently, two official plugins are available:
+The goal is to create a web app that helps users keep track of what they’ve watched, read, or listened to without being locked into a single platform. 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+It's your own personal time capsule.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Tech Stack
+
+### Frontend
+- **React** – Core UI framework
+- **Vite** – Fast development and build tool
+- **CSS** – Clean, customizable styling without frameworks
+- **React Router** – Client-side routing and page navigation
+
+### Backend (Coming Soon)
+- **Firebase** – Authentication, Firestore, and hosting
+- **3rd-party APIs** – TMDB for movies/shows, OpenLibrary for books, others TBD
+
+---
+
+## 🚧 Features (In Progress)
+- User authentication & profile
+- Search and log entries for movies, shows, books, and music
+- Media collections and filters
+- Activity history and review system
+- Explore page for recommendations or trending titles
+- Optional syncing with external services (TMDB, Spotify, etc.)
